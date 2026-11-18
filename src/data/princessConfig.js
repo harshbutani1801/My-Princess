@@ -1,0 +1,21 @@
+export const princessConfig = {
+  princess: 'Aayushi Shah',
+  partner: 'Harsh',
+  anniversary: '17 September 2022',
+  theme: 'Luxury Royal Palace',
+  welcomeTitle: 'THE ROYAL KINGDOM OF AAYUSHI',
+  welcomeLine: 'Tonight, the entire kingdom belongs to you.',
+  letter: `My Dearest Aayushi,\n\nIf I could give you one thing in this world, it would be the ability to see yourself through my eyes. You would see the most beautiful girl—not just because of your smile or your eyes, but because of everything that makes you YOU.\n\nFrom the day we met in college to all the crazy little adventures we have shared, you have become such an important part of my life. I love our food adventures, our endless teasing, our silly arguments, and those little moments when we annoy each other for absolutely no reason.\n\nI love dreaming about our future: a beautiful home, our little family, spontaneous trips, endless laughter and growing old together. I don't promise that every day will be perfect, but I promise I want to keep choosing you, understanding you, supporting you and making you feel loved.\n\nYou deserve a kingdom, but more than that, you deserve a life filled with happiness, respect, comfort and unconditional love.\n\nHappy Princess Day, my princess.\n\nAlways yours,\nYour Harsh ♥`,
+  memories: [
+    { title: 'The Beginning of Us', image: '/images/aayushi/college-memory.jpg', date: '17 September 2022', caption: 'Somehow, a simple college friendship became my favourite chapter of life. I never knew that helping you learn UI design would lead me to someone who would teach me what love feels like.' },
+    { title: 'Our College Days', image: '/images/aayushi/together-memory.jpg', caption: 'College gave me plenty of lessons. Meeting you was the one I will always be most grateful for.' },
+    { title: 'The Girl Who Stole My Heart', image: '/images/aayushi/aayushi-portrait.jpg', caption: 'It is the way you see the world, the way you laugh, and all the little things that make you unmistakably you.' },
+    { title: 'Our Foodie Adventures', image: '/images/aayushi/food-adventure.jpg', caption: 'From one cafe to the next, every food adventure is better when I get to share it with you.' },
+    { title: 'Our Kutch Memories', image: '/images/aayushi/kutch-trip.jpg', caption: 'Kutch is one of my favourite places because it holds a little piece of our story. I would choose a thousand more trips with you.' },
+    { title: 'My Favourite Smile', image: '/images/aayushi/favourite-smile.jpg', caption: 'Your smile has a way of making even an ordinary day feel like somewhere I want to stay.' },
+    { title: 'Our Crazy Little Moments', image: '/images/aayushi/favourite-memory.jpg', caption: 'The teasing, the roasting, the silly arguments—we make even the smallest moments ours.' },
+    { title: 'The Future I Dream About', image: '/images/aayushi/together-memory.jpg', caption: 'A home that feels like us, a little family, new places every year, and all the ordinary days in between. Every version of my future has you in it.' },
+  ],
+  finalMessage: 'Thank you for being my favourite person, my happiness and my home.',
+  audio: { src: '/audio/royal-waltz.mp3', enabledByDefault: false },
+};
