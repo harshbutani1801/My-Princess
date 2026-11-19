@@ -2,3 +2,5 @@ node_modules/
 dist/
 .env*
 *.local
+/private-images/
+/.private-share-link.txt

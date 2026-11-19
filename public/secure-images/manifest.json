@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "photos": [
+    {
+      "source": "/images/aayushi/aayushi-portrait.jpg",
+      "file": "9937b543-67db-4499-a971-5e0211b62dd9.bin",
+      "iv": "eTSHBn8f3mj0m0CQ",
+      "type": "image/svg+xml"
+    },
+    {
+      "source": "/images/aayushi/college-memory.jpg",
+      "file": "6751c773-1ac1-46d0-b885-2ac27e70c9de.bin",
+      "iv": "xFhmByQ47f8TM3lS",
+      "type": "image/svg+xml"
+    },
+    {
+      "source": "/images/aayushi/favourite-memory.jpg",
+      "file": "cf8ffb65-ab5e-4ac3-ada9-b149d7070384.bin",
+      "iv": "dldbrkF42tPsOTTb",
+      "type": "image/svg+xml"
+    },
+    {
+      "source": "/images/aayushi/favourite-smile.jpg",
+      "file": "e05a3521-768c-4fe3-9036-0f53c4463e6d.bin",
+      "iv": "heM-BDqj-tJw-NUz",
+      "type": "image/svg+xml"
+    },
+    {
+      "source": "/images/aayushi/food-adventure.jpg",
+      "file": "bd8abd89-19de-45e8-9b48-ea3f424f343f.bin",
+      "iv": "GGCjacj_2AgmN6iT",
+      "type": "image/svg+xml"
+    },
+    {
+      "source": "/images/aayushi/kutch-trip.jpg",
+      "file": "28d22b64-5594-4b4a-8492-8b8eb5cde599.bin",
+      "iv": "u7KmQnIx4qxR0Upm",
+      "type": "image/svg+xml"
+    },
+    {
+      "source": "/images/aayushi/together-memory.jpg",
+      "file": "1354559e-714a-46e9-8286-48073150d854.bin",
+      "iv": "9Cfeg0RmldmlxNT_",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -17,5 +17,5 @@ export const princessConfig = {
     { title: 'The Future I Dream About', image: '/images/aayushi/together-memory.jpg', caption: 'A home that feels like us, a little family, new places every year, and all the ordinary days in between. Every version of my future has you in it.' },
   ],
   finalMessage: 'Thank you for being my favourite person, my happiness and my home.',
-  audio: { src: '/audio/royal-waltz.mp3', enabledByDefault: false },
+  audio: { src: './audio/royal-waltz.mp3', enabledByDefault: false },
 };
