@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✦ The Royal Kingdom of Aayushi ✦
+# ✦ The Royal Kingdom ✦
 
 ### A little world, made for one very special girl.
 
@@ -12,7 +12,7 @@
 
 ## A story to wander through
 
-Enter through the palace doors and follow a quiet, romantic journey from the gallery to the ballroom, through the garden, and into a letter written from the heart. The final scene is a keepsake for Aayushi, made to be revisited whenever she wants.
+Enter through the palace doors and follow a quiet, romantic journey from the gallery to the ballroom, through the garden, and into a letter written from the heart. The final scene is a keepsake for the person it was made for, ready to be revisited whenever they want.
 
 | Chapter | A little glimpse |
 | --- | --- |
@@ -20,7 +20,7 @@ Enter through the palace doors and follow a quiet, romantic journey from the gal
 | **The Gallery** | Eight moments from a story that belongs to two people. |
 | **The Ballroom & Garden** | A pause to wander, smile, and stay awhile. |
 | **The Letter** | Words to keep close. |
-| **The Crown & Finale** | A royal ending, made just for Aayushi. |
+| **The Crown & Finale** | A royal ending, made just for its heroine. |
 
 ## Made with care
 
@@ -40,6 +40,6 @@ The crown scene is a royal illustration, not live camera-based fitting. The expe
 
 <div align="center">
 
-**Made with love, by Harsh**  ·  **For Aayushi**  ·  **17 September 2022**
+**Made with love, by Harsh**  ·  **For someone dear**  ·  **17 September 2022**
 
 </div>
