@@ -1,42 +1,45 @@
-# The Royal Kingdom of Aayushi
+<div align="center">
 
-A responsive, interactive Princess Day story made for Aayushi Shah by Harsh. The scenes are custom CSS illustrations and transitions, so the experience remains lightweight on phones and does not depend on WebGL.
+# ✦ The Royal Kingdom of Aayushi ✦
 
-## Run locally
+### A little world, made for one very special girl.
 
-1. Install Node.js 20 or newer.
-2. In this folder, run `npm install`.
-3. Run `npm run dev` and open the local URL Vite prints.
-4. Run `npm run build` to create the production site in `dist/`.
+*A Princess Day journey by Harsh — told in eight scenes, wrapped in music, memories, and a touch of palace magic.*
 
-## Keep photographs private in a public repository
+</div>
 
-Do not put unencrypted photos in `public/` or commit them to Git. The project includes seven decorative SVG samples in the gitignored `private-images/aayushi/` folder. Replace each sample with your own photo using the same filename stem and a `.jpg`, `.png`, or other supported extension. For example, replace `college-memory.svg` with `college-memory.jpg`; remove the SVG so there is only one file per name. The slots are `aayushi-portrait`, `college-memory`, `favourite-memory`, `kutch-trip`, `food-adventure`, `together-memory`, and `favourite-smile`. The folder and generated `.private-share-link.txt` are gitignored.
+---
 
-After choosing the public URL for the site, encrypt the photos locally:
+## A story to wander through
 
-```sh
-npm run photos:encrypt -- https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
-```
+Enter through the palace doors and follow a quiet, romantic journey from the gallery to the ballroom, through the garden, and into a letter written from the heart. The final scene is a keepsake for Aayushi, made to be revisited whenever she wants.
 
-The script uses Node's built-in AES-256-GCM encryption. It writes encrypted `.bin` files and a manifest to `public/secure-images/`, then saves the secret viewing link in `.private-share-link.txt`. The random decryption key is only in that link fragment (after `#key=`); the browser reads it and decrypts the photos locally. The key is not included in the repo or sent in the HTTP request to GitHub. The repo can be public: visitors without the secret link see the designed fallbacks, while anyone with the link can see the photos. Sample SVGs let you deploy the site before adding personal photos; replace them and regenerate the encrypted files and share link later.
+| Chapter | A little glimpse |
+| --- | --- |
+| **The Welcome** | A kingdom waits behind the first page. |
+| **The Gallery** | Eight moments from a story that belongs to two people. |
+| **The Ballroom & Garden** | A pause to wander, smile, and stay awhile. |
+| **The Letter** | Words to keep close. |
+| **The Crown & Finale** | A royal ending, made just for Aayushi. |
 
-Keep `.private-share-link.txt` private and send its link directly to Aayushi. Anyone who receives or forwards that link can view the photos. This is link-based privacy, not account authentication; it cannot prevent a recipient from saving or resharing a photo. If a link leaks, encrypt a new batch and publish the new encrypted files. Old encrypted copies and links cannot be recalled from Git history or from people who already downloaded them.
+## Made with care
 
-Run the encryption script again whenever the photo set changes. It generates a fresh key, so send the newly generated link. Never manually copy originals into `public/`; `.gitignore` protects `private-images/` but cannot protect photos placed elsewhere.
+The palace, its doors, chandeliers, rose garden, and crown are drawn in CSS and brought to life with gentle motion. The experience is designed to feel warm and cinematic on a phone as well as a larger screen. Music is optional, so the story is always comfortable to open.
 
-## Customize the story
+## Our memories, kept close
 
-Edit `src/data/princessConfig.js` to change the names, anniversary, letter, gallery items, captions, and final message. Each encrypted photo is matched to a memory by its configured image path and filename.
+The gallery is prepared for seven personal photographs. In the public project, photo files are encrypted before they are published; the decryption key travels in a private link. The ordinary website opens with illustrated placeholders, while the private link unlocks the photographs in the browser.
 
-## Music
+This is a keepsake shared by link: anyone who receives that link can view and save the photographs. Please keep it private.
 
-Add a legally usable instrumental track at `public/audio/royal-waltz.mp3`, or change `audio.src` in the configuration. Playback is opt-in through the music control because mobile browsers block autoplay. The site works without an audio file.
+## A small note
 
-## Deploy and share
+The crown scene is a royal illustration, not live camera-based fitting. The experience does not open or record the camera.
 
-For GitHub Pages, the Vite config uses a relative asset base and `.github/workflows/deploy.yml` builds and publishes `dist/` whenever you push to `main`. Run the encryption command with the final Pages URL, then commit the app, `public/secure-images/manifest.json`, and encrypted `.bin` files. Confirm no originals or `.private-share-link.txt` are staged. In the repository, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. Use the generated link from `.private-share-link.txt` for Aayushi; the ordinary site URL will not unlock photos.
+---
 
-You can also deploy with Vercel using `npm run build` and `dist` as the output directory. Generate the encrypted files and link with the final Vercel URL. Re-run the encryption script if the deployed URL changes.
+<div align="center">
 
-Live crown AR is not included because this build does not bundle a face landmark tracker. The crown screen explains that limitation without opening the camera or implying that tracking works. No camera footage is accessed, uploaded, or stored.
+**Made with love, by Harsh**  ·  **For Aayushi**  ·  **17 September 2022**
+
+</div>
